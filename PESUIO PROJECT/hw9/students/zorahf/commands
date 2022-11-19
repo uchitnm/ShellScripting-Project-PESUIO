@@ -1,0 +1,40 @@
+#!/bin/bash
+ls /var
+echo songs/:
+echo .
+echo ..
+echo .I.am.hidden.mp3
+echo britney_spears-baby_one_more_time.mp3
+echo britney_spears-oops_i_got_pregnant_again.mp3
+echo cure
+echo marty_stepp-cure_for_what_ails_ya.mp3
+echo nirvana-in_bloom.mp3
+echo smashing_pumpkins-1979.mp3
+echo smashing_pumpkins-i_am_one.mp3
+echo 
+echo songs/cure:
+echo .
+echo ..
+echo cure-fascination_street.mp3
+echo cure-friday_im_in_love.mp3
+echo cure-lovesong.mp3
+echo the_cure.-.boys.dont.cry.mp3
+echo 
+echo programs/Car.java
+echo programs/DrawLoops.java
+echo programs/DrawShapes.java
+
+if [ -e Pow.class ]; then
+	echo 3 ^ 4 = 34
+	echo 10 ^ 3 = 103
+	echo 13 ^ 2 = 132
+	echo 4 ^ 6 = 46
+fi
+
+if [ -e animals.txt ]; then
+	echo Q:Does your animal bark or growl??
+	echo Q:Does it growl?
+fi
+
+echo 31956
+echo 12

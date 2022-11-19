@@ -1,0 +1,42 @@
+#!/bin/bash
+# I don't comment.  I am too cool for that.
+ls /var
+echo songs/:
+echo smashing_pumpkins-i_am_one.mp3
+echo smashing_pumpkins-1979.mp3
+echo nirvana-in_bloom.mp3
+echo marty_stepp-cure_for_what_ails_ya.mp3
+echo cure
+echo britney_spears-oops_i_got_pregnant_again.mp3
+echo britney_spears-baby_one_more_time.mp3
+echo .I.am.hidden.mp3
+echo ..
+echo .
+echo 
+echo songs/cure:
+echo the_cure.-.boys.dont.cry.mp3
+echo cure-lovesong.mp3
+echo cure-friday_im_in_love.mp3
+echo cure-fascination_street.mp3
+echo ..
+echo .
+echo 
+echo programs/Car.java
+echo programs/DrawLoops.java
+echo programs/DrawShapes.java
+
+if [ -e Pow.class ]; then
+	echo 3 ^ 4 = 81
+	echo 10 ^ 3 = 1000
+	echo 13 ^ 2 = 169
+	echo 4 ^ 6 = 4096
+fi
+
+if [ -e animals.txt ]; then
+	echo Q:Is it a Pokemon that evolves from Growlithe?
+	echo Q:Does your animal bark or growl??
+	echo Q:Does it growl?
+fi
+
+echo 31956
+echo 12
